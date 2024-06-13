@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    background: rgb(28, 145, 100);
+    background: rgb(238, 243, 241);
 }
 
 h2 {
@@ -9,7 +9,7 @@ h2 {
     text-align: center;
     background-color: black;
     /* color: linen; */
-    color: rgb(28, 145, 100);
+    color: rgb(244, 247, 245);
     letter-spacing: 2px;
     font-weight: lighter;
     position: fixed;
