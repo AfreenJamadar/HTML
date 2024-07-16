@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+.container {
+    position: relative;
+    width: 200px; /* Adjust the width as needed */
+    height: 200px; /* Adjust the height as needed */
+}
+
+.box {
+    position: absolute;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+    border: 2px solid;
+}
+
+.mysql {
+    top: 0;
+    left: 0;
+    border-color: red;
+}
+
+.php {
+    top: 40px; /* Adjusted top position */
+    left: 60px; /* Adjusted left position */
+    color: red;
+    border: 2px solid blue;
+    border-radius: 50%;
+    padding: 20px 30px; /* Adjusted padding for size */
+    text-align: center;
+}
+
+.sql {
+    top: 80px; /* Adjusted top position */
+    left: 110px; /* Adjusted left position */
+    border-color: lightblue;
+    color: red;
+}
