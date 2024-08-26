@@ -15,18 +15,18 @@
 // let b = "10";
 // console.log(a==b);//only check values
 // console.log(a===b);//check both values & datatype
-console.log(5 == 5);
-console.log(5 != 5);
-console.log(5 == "5");
-console.log(6 !== 5);
-console.log("a" == "b");
-console.log("a" != "a");
+// console.log(5 == 5);
+// console.log(5 != 5);
+// console.log(5 == "5");
+// console.log(6 !== 5);
+// console.log("a" == "b");
+// console.log("a" != "a");
 
-let a = 10;
-let b = 20;
-//first increase then assign => pre
-//first assign then increase =>post
-console.log(++a - --b + a++ + --b - a++ - b-- + b++ + --a + a--);
+// let a = 10;
+// let b = 20;
+// //first increase then assign => pre
+// //first assign then increase =>post
+// console.log(++a - --b + a++ + --b - a++ - b-- + b++ + --a + a--);
         //  11      19   11    18    12   18     17    12    12
         // a=11, b=18
 
@@ -67,3 +67,8 @@ console.log(++a - --b + a++ + --b - a++ - b-- + b++ + --a + a--);
 // let g = null;
 // console.log(typeof a,typeof b,typeof c,typeof d,typeof e,typeof f,typeof g);
 // console.log(a,b,c,d,e,f,g);
+
+let b = 0;
+let c = String(b);
+console.log(typeof c, c);
+
