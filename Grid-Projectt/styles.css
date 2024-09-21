@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    color: #fff;
+    background-color: rgb(20,30,40);
+}
+
+main {
+    min-height: inherit;
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px;
+    border: 2px solid red;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+}
+
+.top-section {
+    .hero {
+        & 
+    }
+}
